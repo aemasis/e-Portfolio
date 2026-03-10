@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Annotated Bibliographies — Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="has-subnav">
+  <!-- TOP NAV -->
+  <nav id="topnav">
+    <a class="nav-brand" href="about.html">Your Name</a>
+    <ul class="nav-items">
+      <li><a href="about.html" data-page="about">About</a></li>
+      <li>
+        <a href="papers.html" data-page="papers">Essays</a>
+        <ul class="dropdown">
+          <li><a href="papers.html#paper-1"><span class="nav-num">01</span>&nbsp; Affective Archiving</a></li>
+          <li><a href="papers.html#paper-2"><span class="nav-num">02</span>&nbsp; Placemaking &amp; the Library</a></li>
+          <li><a href="papers.html#paper-3"><span class="nav-num">03</span>&nbsp; Library Neutrality Essay</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="bibliographies.html" data-page="bibliographies">Annotated Bibliographies</a>
+        <ul class="dropdown">
+          <li><a href="bibliographies.html#bib-1"><span class="nav-num">03</span>&nbsp; Textile History</a></li>
+          <li><a href="bibliographies.html#bib-2"><span class="nav-num">04</span>&nbsp; Hilma af Klint &amp; MMF</a></li>
+          <li><a href="bibliographies.html#bib-3"><span class="nav-num">05</span>&nbsp; Placemaking</a></li>
+          <li><a href="bibliographies.html#bib-4"><span class="nav-num">06</span>&nbsp; Affect Theory</a></li>
+        </ul>
+      </li>
+      <li><a href="book-treatment.html" data-page="book-treatment">Book Conservation and Binding</a></li>
+      <li><a href="cv.html" data-page="cv">CV</a></li>
+      <li>
+        <a href="curation.html" data-page="curation">Curating &amp; Web Design</a>
+        <ul class="dropdown">
+          <li><a href="curation.html#curation-1"><span class="nav-num">09</span>&nbsp; Digital Curation Project</a></li>
+          <li><a href="curation.html#curation-2"><span class="nav-num">10</span>&nbsp; Knitting Website</a></li>
+          <li><a href="curation.html#curation-3"><span class="nav-num">11</span>&nbsp; Book History Website</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="work-experience.html" data-page="work-experience">Work Experience</a>
+        <ul class="dropdown">
+          <li><a href="work-experience.html#work-1"><span class="nav-num">12</span>&nbsp; Newberry</a></li>
+          <li><a href="work-experience.html#work-2"><span class="nav-num">13</span>&nbsp; Chicago Public Library</a></li>
+        </ul>
+      </li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div id="mobile-menu">
+    <a href="about.html">About</a>
+    <a href="papers.html">Essays</a>
+    <a class="mob-sub" href="papers.html#paper-1"><span class="nav-num">01</span> Affective Archiving</a>
+    <a class="mob-sub" href="papers.html#paper-2"><span class="nav-num">02</span> Placemaking &amp; the Library</a>
+    <a class="mob-sub" href="papers.html#paper-3"><span class="nav-num">03</span> Library Neutrality Essay</a>
+    <a href="bibliographies.html">Annotated Bibliographies</a>
+    <a class="mob-sub" href="bibliographies.html#bib-1"><span class="nav-num">03</span> Textile History</a>
+    <a class="mob-sub" href="bibliographies.html#bib-2"><span class="nav-num">04</span> Hilma af Klint &amp; MMF</a>
+    <a class="mob-sub" href="bibliographies.html#bib-3"><span class="nav-num">05</span> Placemaking</a>
+    <a class="mob-sub" href="bibliographies.html#bib-4"><span class="nav-num">06</span> Affect Theory</a>
+    <a href="book-treatment.html">Book Conservation and Binding</a>
+    <a href="cv.html">CV</a>
+    <a href="curation.html">Curating &amp; Web Design</a>
+    <a class="mob-sub" href="curation.html#curation-1"><span class="nav-num">09</span> Digital Curation Project</a>
+    <a class="mob-sub" href="curation.html#curation-2"><span class="nav-num">10</span> Knitting Website</a>
+    <a class="mob-sub" href="curation.html#curation-3"><span class="nav-num">11</span> Book History Website</a>
+    <a href="work-experience.html">Work Experience</a>
+    <a class="mob-sub" href="work-experience.html#work-1"><span class="nav-num">12</span> Newberry</a>
+    <a class="mob-sub" href="work-experience.html#work-2"><span class="nav-num">13</span> Chicago Public Library</a>
+  </div>
+  <div id="subnav">
+    <a href="#bib-1">03 &nbsp; Textile History</a>
+    <a href="#bib-2">04 &nbsp; Hilma af Klint &amp; MMF</a>
+    <a href="#bib-3">05 &nbsp; Placemaking</a>
+    <a href="#bib-4">06 &nbsp; Affect Theory</a>
+  </div>
+
+  <div class="page-body">
+    <div class="eyebrow">Section 3</div>
+    <h1>Annotated Bibliographies</h1>
+    <div class="title-rule"></div>
+    <p>Curated reading lists with annotations across four areas of research.</p>
+
+    <div class="sub-section" id="bib-1">
+      <div class="eyebrow">Bibliography <span class="nav-num">03</span></div>
+      <h2>Textile History</h2>
+      <div class="placeholder-block">[ annotated bibliography content ]</div>
+    </div>
+
+    <div class="sub-section" id="bib-2">
+      <div class="eyebrow">Bibliography <span class="nav-num">04</span></div>
+      <h2>Hilma af Klint &amp; Marta Maas Fjetterstrom</h2>
+      <div class="placeholder-block">[ annotated bibliography content ]</div>
+    </div>
+
+    <div class="sub-section" id="bib-3">
+      <div class="eyebrow">Bibliography <span class="nav-num">05</span></div>
+      <h2>Placemaking</h2>
+      <div class="placeholder-block">[ annotated bibliography content ]</div>
+    </div>
+
+    <div class="sub-section" id="bib-4">
+      <div class="eyebrow">Bibliography <span class="nav-num">06</span></div>
+      <h2>Affect Theory</h2>
+      <div class="placeholder-block">[ annotated bibliography content ]</div>
+    </div>
+  </div>
+  <script>
+    // Hamburger
+    document.getElementById('hamburger').addEventListener('click', () =>
+      document.getElementById('mobile-menu').classList.toggle('open'));
+
+    // Mark active top-nav link based on current filename
+    const here = location.pathname.split('/').pop() || 'about.html';
+    document.querySelectorAll('.nav-items > li > a[data-page]').forEach(a => {
+      if (a.getAttribute('href') === here) a.classList.add('active');
+    });
+
+    // Smooth scroll to hash on load
+    if (location.hash) {
+      setTimeout(() => {
+        const el = document.querySelector(location.hash);
+        if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }, 80);
+    }
+  </script>
+</body>
+</html>
