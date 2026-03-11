@@ -253,11 +253,12 @@ p {
 /* ── ABOUT TWO-COLUMN LAYOUT ── */
 .about-columns {
   display: grid;
-  grid-template-columns: 1fr 560px;
-  gap: 4rem;
+  grid-template-columns: 1fr 680px;
+  gap: 3rem;
   align-items: start;
-  max-width: 1300px !important;
+  max-width: 1600px !important;
   padding-bottom: 6rem;
+  padding-right: 0 !important;
 }
 
 .about-text {
@@ -266,6 +267,7 @@ p {
 
 .about-image-col {
   align-self: start;
+  margin-right: -2rem;
 }
 
 .about-image {
@@ -275,13 +277,13 @@ p {
   border: 1px solid var(--light-rule);
 }
 
-@media (max-width: 860px) {
+@media (max-width: 1000px) {
   .about-columns {
     grid-template-columns: 1fr;
+    padding-right: clamp(1.5rem, 5vw, 4rem) !important;
   }
   .about-image-col {
-    position: static;
-    order: -1;
+    margin-right: 0;
   }
   .about-image {
     max-width: 100%;
@@ -308,8 +310,8 @@ p {
 /* ── ABOUT HERO ── */
 .about-hero {
   padding-top: calc(var(--nav-h) + 5rem);
-  padding-left: clamp(2rem, 8vw, 7rem);
-  padding-right: clamp(2rem, 8vw, 7rem);
+  padding-left: clamp(1.5rem, 5vw, 4rem);
+  padding-right: clamp(1.5rem, 5vw, 4rem);
   padding-bottom: 3rem;
   border-bottom: 1px solid var(--light-rule);
   margin-bottom: 3rem;
