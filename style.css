@@ -250,6 +250,31 @@ p {
   border-top: 1px solid var(--light-rule);
 }
 
+/* ── ABOUT IMAGE ── */
+.about-image-wrap {
+  padding-bottom: 6rem;
+}
+.about-image {
+  width: 100%;
+  max-width: 680px;
+  height: auto;
+  display: block;
+  border: 1px solid var(--light-rule);
+}
+
+/* ── ABOUT BLOCKS ── */
+.about-block {
+  margin-bottom: 3rem;
+  padding-bottom: 3rem;
+  border-bottom: 1px solid var(--light-rule);
+}
+.about-block:last-of-type {
+  border-bottom: none;
+}
+.about-block .eyebrow {
+  margin-bottom: 1.25rem;
+}
+
 /* ── ABOUT HERO ── */
 .about-hero {
   padding-top: calc(var(--nav-h) + 5rem);
