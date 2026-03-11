@@ -164,8 +164,8 @@ html, body {
 
 /* ── PAGE BODY ── */
 .page-body {
-  padding-left: clamp(2rem, 8vw, 7rem);
-  padding-right: clamp(2rem, 8vw, 7rem);
+  padding-left: clamp(1.5rem, 5vw, 4rem);
+  padding-right: clamp(1.5rem, 5vw, 4rem);
   padding-bottom: 6rem;
   max-width: 900px;
 }
@@ -253,10 +253,10 @@ p {
 /* ── ABOUT TWO-COLUMN LAYOUT ── */
 .about-columns {
   display: grid;
-  grid-template-columns: 1fr 320px;
+  grid-template-columns: 1fr 460px;
   gap: 4rem;
   align-items: start;
-  max-width: 1100px !important;
+  max-width: 1300px !important;
   padding-bottom: 6rem;
 }
 
@@ -286,7 +286,7 @@ p {
     order: -1;
   }
   .about-image {
-    max-width: 480px;
+    max-width: 100%;
   }
 }
 
@@ -301,6 +301,10 @@ p {
 }
 .about-block .eyebrow {
   margin-bottom: 1.25rem;
+}
+.about-block p {
+  font-size: 20pt;
+  max-width: 100%;
 }
 
 /* ── ABOUT HERO ── */
