@@ -253,7 +253,7 @@ p {
 /* ── ABOUT TWO-COLUMN LAYOUT ── */
 .about-columns {
   display: grid;
-  grid-template-columns: 1fr 460px;
+  grid-template-columns: 1fr 560px;
   gap: 4rem;
   align-items: start;
   max-width: 1300px !important;
@@ -265,8 +265,6 @@ p {
 }
 
 .about-image-col {
-  position: sticky;
-  top: calc(var(--nav-h) + 2rem);
   align-self: start;
 }
 
