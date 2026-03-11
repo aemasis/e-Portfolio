@@ -250,16 +250,42 @@ p {
   border-top: 1px solid var(--light-rule);
 }
 
-/* ── ABOUT IMAGE ── */
-.about-image-wrap {
+/* ── ABOUT TWO-COLUMN LAYOUT ── */
+.about-columns {
+  display: grid;
+  grid-template-columns: 1fr 340px;
+  gap: 4rem;
+  align-items: start;
+  max-width: 1100px;
   padding-bottom: 6rem;
 }
+
+.about-text {
+  min-width: 0;
+}
+
+.about-image-col {
+  position: sticky;
+  top: calc(var(--nav-h) + 2rem);
+}
+
 .about-image {
   width: 100%;
-  max-width: 680px;
   height: auto;
   display: block;
   border: 1px solid var(--light-rule);
+}
+
+@media (max-width: 860px) {
+  .about-columns {
+    grid-template-columns: 1fr;
+  }
+  .about-image-col {
+    position: static;
+  }
+  .about-image {
+    max-width: 480px;
+  }
 }
 
 /* ── ABOUT BLOCKS ── */
