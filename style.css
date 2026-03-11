@@ -289,6 +289,64 @@ p {
   }
 }
 
+/* ── PROJECT PREVIEWS ── */
+.project-preview {
+  margin-top: 1.75rem;
+  display: flex;
+  justify-content: center;
+}
+.project-preview-link {
+  display: block;
+  position: relative;
+  text-decoration: none;
+  width: 80%;
+  border: 1px solid var(--light-rule);
+  overflow: hidden;
+}
+.project-screenshot {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: opacity 0.3s;
+}
+.project-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(26, 23, 20, 0.55);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.project-preview-link:hover .project-screenshot { opacity: 0.85; }
+.project-preview-link:hover .project-overlay { opacity: 1; }
+.project-overlay span {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--cream);
+  border: 1px solid rgba(245,240,232,0.6);
+  padding: 0.6rem 1.4rem;
+}
+
+.project-video-placeholder {
+  margin-top: 1.75rem;
+  padding: 4rem 2rem;
+  border: 1px dashed var(--light-rule);
+  background: rgba(255,255,255,0.4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  color: var(--warm-mid);
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+}
+
 /* ── PDF EMBED ── */
 .pdf-meta {
   display: flex;
