@@ -291,6 +291,118 @@ p {
   }
 }
 
+/* ── CV ── */
+.cv-header {
+  margin-bottom: 3rem;
+}
+.cv-contact {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  color: var(--warm-mid);
+  max-width: 100%;
+}
+.cv-contact a {
+  color: var(--warm-mid);
+  text-decoration: none;
+  border-bottom: 1px solid var(--light-rule);
+  transition: color 0.2s;
+}
+.cv-contact a:hover { color: var(--accent); }
+
+.cv-section {
+  margin-bottom: 3rem;
+  padding-bottom: 3rem;
+  border-bottom: 1px solid var(--light-rule);
+}
+.cv-section:last-of-type { border-bottom: none; }
+.cv-section > .eyebrow { margin-bottom: 2rem; }
+
+.cv-entry {
+  margin-bottom: 2.25rem;
+}
+.cv-entry:last-of-type { margin-bottom: 0; }
+
+.cv-entry-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  margin-bottom: 0.25rem;
+}
+.cv-org {
+  font-family: var(--font-serif);
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--ink);
+}
+.cv-location {
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  letter-spacing: 0.08em;
+  color: var(--warm-mid);
+  white-space: nowrap;
+}
+.cv-entry-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  margin-bottom: 0.75rem;
+}
+.cv-role {
+  font-family: var(--font-serif);
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: 300;
+  color: var(--accent);
+}
+.cv-date {
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  letter-spacing: 0.06em;
+  color: var(--warm-mid);
+  white-space: nowrap;
+}
+.cv-bullets {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.cv-bullets li {
+  font-family: var(--font-serif);
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.7;
+  color: #3a3530;
+  padding-left: 1.25rem;
+  position: relative;
+  margin-bottom: 0.4rem;
+  max-width: 100%;
+}
+.cv-bullets li::before {
+  content: "–";
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+  opacity: 0.7;
+}
+.cv-note {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.04em;
+  color: var(--warm-mid);
+  max-width: 100%;
+}
+.cv-skills {
+  font-family: var(--font-serif);
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 2;
+  color: #3a3530;
+  max-width: 100%;
+}
+
 /* ── PROJECT PREVIEWS ── */
 .project-preview {
   margin-top: 1.75rem;
