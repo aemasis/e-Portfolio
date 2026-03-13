@@ -664,3 +664,13 @@ body { animation: fadeUp 0.4s ease both; }
   display: block;
   border: 1px solid var(--light-rule);
 }
+
+/* ── GOALS BLOCK ── */
+.goals-block {
+  margin-top: 2.5rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--light-rule);
+}
+.goals-block > .eyebrow {
+  margin-bottom: 0.75rem;
+}
