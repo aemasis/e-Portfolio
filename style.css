@@ -656,7 +656,6 @@ body { animation: fadeUp 0.4s ease both; }
 }
 
 /* ── WHATS ON A PAGE IMAGES ── */
-/* ── WHATS ON A PAGE IMAGES ── */
 .whats-on-a-page-images {
   display: flex;
   flex-direction: column;
@@ -664,22 +663,8 @@ body { animation: fadeUp 0.4s ease both; }
   margin-top: 1.75rem;
 }
 .whats-page-img {
-  width: auto;
+  width: 480px;
   max-width: 100%;
-  height: auto;
-  display: block;
-  border: 1px solid var(--light-rule);
-}
-
-/* ── WHATS ON A PAGE IMAGES ── */
-.whats-on-a-page-images {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-  margin-top: 1.75rem;
-}
-.whats-page-img {
-  width: 100%;
   height: auto;
   display: block;
   border: 1px solid var(--light-rule);
