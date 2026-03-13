@@ -336,7 +336,13 @@ p {
 }
 .cv-contact a:hover { color: var(--accent); }
 
-.cv-section {
+.cv-contact-rule {
+  border: none;
+  border-top: 1px solid var(--ink);
+  margin-top: 0.75rem;
+  margin-bottom: 0;
+}
+
   margin-bottom: 2.5rem;
   padding-bottom: 2.5rem;
   border-bottom: 1px solid var(--light-rule);
@@ -349,12 +355,14 @@ p {
   letter-spacing: 0.22em;
   color: var(--ink);
   margin-bottom: 1.5rem;
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
 .cv-entry {
   margin-bottom: 2rem;
-  padding-left: 1.25rem;
-  border-left: 3px solid var(--light-rule);
+  padding-left: 0;
+  border-left: none;
 }
 .cv-entry:last-of-type { margin-bottom: 0; }
 
