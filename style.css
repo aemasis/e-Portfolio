@@ -291,6 +291,33 @@ p {
   }
 }
 
+.cv-page, .cv-page p, .cv-page ul, .cv-page span {
+  font-family: 'Liberation Sans', Arial, sans-serif;
+}
+.cv-skills-languages {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 3rem;
+  align-items: start;
+}
+.cv-languages-col {
+  min-width: 140px;
+  border-left: 1px solid var(--light-rule);
+  padding-left: 2rem;
+}
+.cv-lang-level {
+  font-size: 0.85rem;
+  color: var(--warm-mid);
+}
+.cv-bottom-section {
+  border-bottom: none !important;
+}
+.cv-download-wrap {
+  margin-top: 2.5rem;
+  padding-top: 2.5rem;
+  border-top: 1px solid var(--light-rule);
+}
+
 /* ── CV ── */
 .cv-header {
   margin-bottom: 3rem;
