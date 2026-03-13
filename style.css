@@ -343,6 +343,11 @@ p {
   margin-bottom: 0;
 }
 
+.cv-section {
+.cv-section {
+.cv-section {
+.cv-section {
+.cv-section {
   margin-bottom: 2.5rem;
   padding-bottom: 2.5rem;
   border-bottom: 1px solid var(--light-rule);
@@ -513,9 +518,9 @@ p {
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 1rem;
-  margin: 1.75rem 0 1rem;
-  padding-bottom: 1rem;
-  border-bottom: 1px solid var(--light-rule);
+  margin: 1rem 0 0;
+  padding-top: 1rem;
+  border-top: 1px solid var(--light-rule);
 }
 .pdf-meta-info {
   font-family: var(--font-mono);
@@ -647,4 +652,46 @@ body { animation: fadeUp 0.4s ease both; }
   .nav-items { display: none; }
   .hamburger { display: flex; }
   .page-body, .about-hero { padding-left: 1.5rem; padding-right: 1.5rem; }
+}
+
+/* ── WHATS ON A PAGE IMAGES ── */
+.whats-on-a-page-images {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 1.75rem;
+}
+.whats-page-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 1px solid var(--light-rule);
+}
+
+/* ── WHATS ON A PAGE IMAGES ── */
+.whats-on-a-page-images {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 1.75rem;
+}
+.whats-page-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 1px solid var(--light-rule);
+}
+
+/* ── WHATS ON A PAGE IMAGES ── */
+.whats-on-a-page-images {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 1.75rem;
+}
+.whats-page-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 1px solid var(--light-rule);
 }
