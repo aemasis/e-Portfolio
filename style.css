@@ -291,7 +291,7 @@ p {
   }
 }
 
-.cv-page, .cv-page p, .cv-page ul, .cv-page span {
+.cv-page, .cv-page p, .cv-page ul, .cv-page span, .cv-page a {
   font-family: 'Liberation Sans', Arial, sans-serif;
 }
 .cv-skills-languages {
@@ -323,9 +323,8 @@ p {
   margin-bottom: 3rem;
 }
 .cv-contact {
-  font-family: var(--font-mono);
-  font-size: 0.72rem;
-  letter-spacing: 0.06em;
+  font-family: 'Liberation Sans', Arial, sans-serif;
+  font-size: 0.9rem;
   color: var(--warm-mid);
   max-width: 100%;
 }
@@ -338,15 +337,24 @@ p {
 .cv-contact a:hover { color: var(--accent); }
 
 .cv-section {
-  margin-bottom: 3rem;
-  padding-bottom: 3rem;
+  margin-bottom: 2.5rem;
+  padding-bottom: 2.5rem;
   border-bottom: 1px solid var(--light-rule);
 }
 .cv-section:last-of-type { border-bottom: none; }
-.cv-section > .eyebrow { margin-bottom: 2rem; }
+.cv-section > .eyebrow {
+  font-family: 'Liberation Sans', Arial, sans-serif;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.22em;
+  color: var(--ink);
+  margin-bottom: 1.5rem;
+}
 
 .cv-entry {
-  margin-bottom: 2.25rem;
+  margin-bottom: 2rem;
+  padding-left: 1.25rem;
+  border-left: 3px solid var(--light-rule);
 }
 .cv-entry:last-of-type { margin-bottom: 0; }
 
@@ -355,17 +363,18 @@ p {
   justify-content: space-between;
   align-items: baseline;
   gap: 1rem;
-  margin-bottom: 0.25rem;
+  margin-bottom: 0.15rem;
 }
 .cv-org {
-  font-family: var(--font-serif);
-  font-size: 1.15rem;
-  font-weight: 600;
+  font-family: 'Liberation Sans', Arial, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
   color: var(--ink);
+  letter-spacing: 0.01em;
 }
 .cv-location {
   font-family: var(--font-mono);
-  font-size: 0.62rem;
+  font-size: 0.65rem;
   letter-spacing: 0.08em;
   color: var(--warm-mid);
   white-space: nowrap;
@@ -375,18 +384,18 @@ p {
   justify-content: space-between;
   align-items: baseline;
   gap: 1rem;
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.9rem;
 }
 .cv-role {
-  font-family: var(--font-serif);
+  font-family: 'Liberation Sans', Arial, sans-serif;
   font-size: 1rem;
   font-style: italic;
-  font-weight: 300;
+  font-weight: 600;
   color: var(--accent);
 }
 .cv-date {
   font-family: var(--font-mono);
-  font-size: 0.62rem;
+  font-size: 0.65rem;
   letter-spacing: 0.06em;
   color: var(--warm-mid);
   white-space: nowrap;
@@ -395,16 +404,17 @@ p {
   list-style: none;
   padding: 0;
   margin: 0;
+  padding-left: 1.5rem;
 }
 .cv-bullets li {
-  font-family: var(--font-serif);
-  font-size: 1rem;
-  font-weight: 300;
-  line-height: 1.7;
+  font-family: 'Liberation Sans', Arial, sans-serif;
+  font-size: 0.95rem;
+  font-weight: 400;
+  line-height: 1.75;
   color: #3a3530;
-  padding-left: 1.25rem;
+  padding-left: 1.1rem;
   position: relative;
-  margin-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
   max-width: 100%;
 }
 .cv-bullets li::before {
@@ -422,9 +432,9 @@ p {
   max-width: 100%;
 }
 .cv-skills {
-  font-family: var(--font-serif);
-  font-size: 1rem;
-  font-weight: 300;
+  font-family: 'Liberation Sans', Arial, sans-serif;
+  font-size: 0.95rem;
+  font-weight: 400;
   line-height: 2;
   color: #3a3530;
   max-width: 100%;
